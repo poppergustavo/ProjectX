@@ -31,9 +31,6 @@
 }
 .btn-opt{
     line-height: 60px;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
 
 /* MAIN */
@@ -60,6 +57,9 @@
 
 /* FOOTER */
 .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     position: fixed;
     width: 1920px;
     height: 25px;
