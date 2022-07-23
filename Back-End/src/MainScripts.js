@@ -22,3 +22,5 @@ window.setInterval(function(){
     }
 
 },1000);
+
+console.log("testing");
