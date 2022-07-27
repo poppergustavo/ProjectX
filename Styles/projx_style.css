@@ -1,10 +1,10 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
 
 /* HEADER */
-.header{
+/* .header{
     position: flex;
     width: 100%;
     height: 100px;
@@ -31,10 +31,10 @@
 }
 .btn-opt{
     line-height: 60px;
-}
+} */
 
 /* MAIN */
-.main{
+/* .main{
     position: fixed;
     flex-grow: 1;
     width: 100%;
@@ -57,12 +57,12 @@
     height: 38px;
     align-content: center;
     text-align: center;
-}
+} */
 
 
 
 /* FOOTER */
-.footer{
+/* .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -83,4 +83,4 @@
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
-}
+} */
