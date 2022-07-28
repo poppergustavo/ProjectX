@@ -2,36 +2,35 @@
 
 <title>ProjectX</title>
         
-        <link rel="stylesheet" href="Styles\projx_style.css">
+        <link rel="stylesheet" href="C:\Users\Usuario\Desktop\ProjectX\Styles\projx_style.css">
+        <link rel="icon"       href="C:\Users\Usuario\Desktop\ProjectX\Images\Global\xLOGO.png">
         
 <html>
 <body>
     
+
     <header class="header">
-        <!-- <h1>ProjectX</h1> -->
 
         <div class="navbar">
-
-            <img src="Images\Global\gear.png" alt="NOT FOUND" width="50" height="50" class="btn-opt">
+            <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Global\gear.png" alt="NOT FOUND" width="50" height="50" class="btn-opt">
             <button class="btn-functions">Functions</button>
             <button class="btn-adm">Administration</button>
-            <p style="color:#ffffff" id="username_lbl">User</p>
-
+            <p id="username_lbl">User</p>
         </div>
 
     </header>
     
+
     <main class="main">
     
-
         <div class="login_div">
-        <input type="text" class="user_ipt" placeholder="Username">
-        <input type="text" class="pass_ipt" placeholder="Password">
-        <button class="login_btn">Login</button>
+        <input type="text" id="user_ipt" placeholder="Username">
+        <input type="password" id="pass_ipt" placeholder="Password">
+        <button id="login_btn">Login</button>
         </div>
 
-
     </main>
+
 
     <footer class="footer">
         <p id="main_clock">00:00:00</p>
@@ -39,32 +38,8 @@
         <p>ᵀᴹ</p>
     </footer>
 
-    <script src="Back-End\src\MainScripts.js">
-        window.setInterval(function(){
 
-        var hora_atual = new Date();
-
-        var hora = hora_atual.getHours();
-        var min = hora_atual.getMinutes();
-        var seg = hora_atual.getSeconds();
-
-        function format_time(time){
-            if(time >= 0 && time <= 9){
-                var formatted_time = time.toString();
-                formatted_time = "0" + formatted_time;
-            }else{
-                return formatted_time;
-            }
-        }
-
-        document.getElementById("main_clock").innerHTML = hora.toString() + ":" + min.toString() + ":" + seg.toString();
-
-        if (seg < 10){
-            document.getElementById("main_clock").innerHTML = hora.toString() + ":" + min.toString() + ":0" + seg.toString(); 
-        }
-
-        },1000);
-    </script>
+    <script src="C:\Users\Usuario\Desktop\ProjectX\Back-End\src\MainScripts.js"></script>
 
 
 </body>
