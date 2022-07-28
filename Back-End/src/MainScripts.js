@@ -1,3 +1,7 @@
+// VERSION
+var version = "0.1-3"
+
+
 // login
 document.getElementById("login_btn").onclick = function(){
 
@@ -11,9 +15,6 @@ document.getElementById("login_btn").onclick = function(){
         document.getElementById("user_ipt").value = "";
         document.getElementById("pass_ipt").value = "";
     }
-
-    console.log(username_v);
-
 };
 // login
 
@@ -43,3 +44,6 @@ window.setInterval(function(){
 
     },1000);
     // 
+
+
+    document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
