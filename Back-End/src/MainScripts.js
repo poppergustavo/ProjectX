@@ -1,3 +1,4 @@
+// login
 document.getElementById("login_btn").onclick = function(){
 
     username_v = document.getElementById("user_ipt").value;
@@ -14,7 +15,7 @@ document.getElementById("login_btn").onclick = function(){
     console.log(username_v);
 
 };
-
+// login
 
 // CLOCK
 window.setInterval(function(){
