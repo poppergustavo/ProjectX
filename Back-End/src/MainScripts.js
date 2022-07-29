@@ -2,6 +2,9 @@
 var version = "0.1-3"
 
 
+
+
+
 // login
 document.getElementById("login_btn").onclick = function(){
 
@@ -14,6 +17,13 @@ document.getElementById("login_btn").onclick = function(){
         document.getElementById("username_lbl").innerHTML = 'Logado como: ' + '<strong>' + username_v + '</strong>.';
         document.getElementById("user_ipt").value = "";
         document.getElementById("pass_ipt").value = "";
+
+        document.getElementById("nav_btns").style.display = "flex";
+        document.getElementById("login_div").style.display = "none";
+
+        document.body.style.backgroundColor = '#67AD9B';
+        document.body.style.transition = "3s";
+
     }
 };
 // login
@@ -47,3 +57,5 @@ window.setInterval(function(){
 
 
     document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
+    document.body.style.backgroundColor = '#467469';
+    document.body.style.color = '#ffffff';
