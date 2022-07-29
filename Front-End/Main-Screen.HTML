@@ -12,12 +12,20 @@
     <header class="header">
 
         <div class="navbar">
-            <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Global\gear.png" alt="NOT FOUND" width="50" height="50" class="btn-opt">
-            <button class="btn-functions">Functions</button>
-            <button class="btn-adm">Administration</button>
-            <button>Records</button>
-            <button>Database</button>
-            <p id="username_lbl">User</p>
+
+            <div class="nav_user">
+                <!-- <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Global\gear.png" alt="NOT FOUND" width="50" height="50" class="btn-opt"> -->
+                <p id="username_lbl">User</p>
+            </div>
+            
+            <div id="nav_btns" class="nav_btns">
+                <button class="nav_buttons">Functions</button>
+                <button class="nav_buttons">Administration</button>
+                <button class="nav_buttons">Records</button>
+                <button class="nav_buttons">Database</button>
+            </div>
+
+
         </div>
 
     </header>
@@ -25,7 +33,7 @@
 
     <main class="main">
     
-        <div class="login_div">
+        <div id="login_div" class="login_div">
         <input type="text" id="user_ipt" placeholder="Username">
         <input type="password" id="pass_ipt" placeholder="Password">
         <button id="login_btn">Login</button>
