@@ -23,6 +23,10 @@ document.getElementById("login_btn").onclick = function(){
 
         document.body.style.backgroundColor = '#67AD9B';
         document.body.style.transition = "3s";
+        document.getElementById("username_lbl").style.color = "#fff"
+
+        document.getElementById("main_img").style.display = "flex";
+        document.getElementById("main_img").style.alignContent = "center";
 
     }
 };
