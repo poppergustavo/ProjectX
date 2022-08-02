@@ -1,62 +1,70 @@
 *{
     margin: 0%;
-    padding: 0%;
-}
+    padding: 0%;}
 
 /* HEADER */
 .header{
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100px;
-    background-color: #1c1c1c;}
-.navbar{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    background-color: #1c1c1c;
+    color: #fff;}
 
-.nav_btns{
-    display: none;
+.navbar{
+    width: 100%;
     height: 100px;
-    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+.nav_btns{
+    display: none;}
 .nav_buttons{ 
-    font-size:18px;
-    font-family:Arial;
-    width:161px;
-    height:100px;
-    border-width:2px;
+    font-size: 18px;
+    font-family: Arial;
+    width: 161px;
+    height:50px; 
+    border-width: 1px;
     color:#fff;
     border-color:rgb(49, 49, 49);
     background:rgb(49, 49, 49);
     transition: 0.5s;}
 .nav_buttons:hover{
     border-color:rgb(0, 0, 0);
-    background: #000000;  
-    transition: 0.5s;
-    border-width:2px;
-    color:#fff;
-    border-top-right-radius:15px;
-    border-bottom-left-radius: 15px;}
+    background: #3c554f;  
+    transition: 0.3s;
+    color:#fff;}
 
 
 /* MAIN */
 .main{
-    position: fixed;
-    flex-grow: 1;
-    width: 100%;
-    height: 100%;
-    text-align: center;}
-.login_div{
-    border: 2px solid #000000;
-    padding: 10px;
-    width: 350px;
-
-    margin: auto;
-    width: 50%;
-
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c1c1c;
+    width: 100%;
+    height: 100vh;}
+.login_div{
+    background-color: #67AD9B;
+    display: flex;
+    border: 2px solid #000000;
+    padding: 30px;
+    width: 200px;
     flex-direction: column;}
-
+.login_btn{
+    font-family: Arial;
+    border-width: 2px;
+    color:#fff;
+    border-color:rgb(49, 49, 49);
+    background:rgb(49, 49, 49);
+    transition: 0.5s;}
+.login_btn:hover{
+    border-color: #3c554f;
+    background: #3c554f;  
+    transition: 0.1s;
+    border-width:2px;
+    color:#fff;}
 
 /* FOOTER */
 .footer{

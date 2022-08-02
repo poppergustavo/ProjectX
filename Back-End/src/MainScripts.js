@@ -1,6 +1,6 @@
 // VERSION
-var version = "0.1-3"
-
+var version = "0.1-5"
+document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
 
 
 
@@ -9,9 +9,10 @@ var version = "0.1-3"
 document.getElementById("login_btn").onclick = function(){
 
     username_v = document.getElementById("user_ipt").value;
+    password_v = document.getElementById("pass_ipt").value;
 
-    if(username_v === ""){
-        alert("É necessário informar seu usuário!");
+    if(username_v === "" || password_v === ""){
+        alert("User and password required to proceed!");
         document.getElementById("username_lbl").innerHTML = "User";
     }else{
         document.getElementById("username_lbl").innerHTML = 'Logado como: ' + '<strong>' + username_v + '</strong>.';
@@ -21,8 +22,9 @@ document.getElementById("login_btn").onclick = function(){
         document.getElementById("nav_btns").style.display = "flex";
         document.getElementById("login_div").style.display = "none";
 
-        document.body.style.backgroundColor = '#67AD9B';
-        document.body.style.transition = "3s";
+        document.getElementById("main").style.backgroundColor = '#67AD9B';
+        document.getElementById("main").style.transition = "3s";
+
         document.getElementById("username_lbl").style.color = "#fff"
 
         document.getElementById("main_img").style.display = "flex";
@@ -60,6 +62,4 @@ window.setInterval(function(){
     // 
 
 
-    document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
-    document.body.style.backgroundColor = '#467469';
-    document.body.style.color = '#ffffff';
+    
