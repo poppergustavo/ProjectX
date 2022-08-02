@@ -1,9 +1,6 @@
 // VERSION
-var version = "0.1-5"
+var version = "0.1-5.1"
 document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
-
-
-
 
 // login
 document.getElementById("login_btn").onclick = function(){
@@ -29,7 +26,6 @@ document.getElementById("login_btn").onclick = function(){
 
         document.getElementById("main_img").style.display = "flex";
         document.getElementById("main_img").style.alignContent = "center";
-
     }
 };
 // login
@@ -38,7 +34,6 @@ document.getElementById("login_btn").onclick = function(){
 window.setInterval(function(){
 
     var hora_atual = new Date();
-
     var hora = hora_atual.getHours();
     var min = hora_atual.getMinutes();
     var seg = hora_atual.getSeconds();
@@ -57,9 +52,4 @@ window.setInterval(function(){
     if (seg < 10){
         document.getElementById("main_clock").innerHTML = hora.toString() + ":" + min.toString() + ":0" + seg.toString(); 
     }
-
     },1000);
-    // 
-
-
-    
