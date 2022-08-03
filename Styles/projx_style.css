@@ -69,6 +69,18 @@
     padding-bottom: 5px;}
 
 
+.default_main_div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    height: 70%;
+    background-color: #566864;
+    justify-content: center;
+    align-items: center;}
+
+
 /* FOOTER */
 .footer{
   position: fixed;
