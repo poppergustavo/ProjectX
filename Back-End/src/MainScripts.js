@@ -51,5 +51,4 @@ window.setInterval(function(){
 
     if (seg < 10){
         document.getElementById("main_clock").innerHTML = hora.toString() + ":" + min.toString() + ":0" + seg.toString(); 
-    }
-    },1000);
+    }},1000);
