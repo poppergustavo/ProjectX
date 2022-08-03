@@ -1,6 +1,7 @@
 *{
     margin: 0%;
-    padding: 0%;}
+    padding: 0%;
+    font-family: Tahoma;}
 
 /* HEADER */
 .header{
@@ -52,7 +53,6 @@
     width: 200px;
     flex-direction: column;}
 .login_btn{
-    font-family: Arial;
     border-width: 2px;
     color:#fff;
     border-color:rgb(49, 49, 49);
@@ -64,6 +64,10 @@
     transition: 0.1s;
     border-width:2px;
     color:#fff;}
+.login_title{
+    font-size: 20px;
+    padding-bottom: 5px;}
+
 
 /* FOOTER */
 .footer{
