@@ -82,6 +82,16 @@
     justify-content: space-around;
     align-items: center;}
 
+.new_purchase_planner_func{
+    width: 90%;
+    height: 85%;
+    background-color: #d5d5d5;
+    padding: 10px;}
+
+/* .new_purchase_planner_func_body{
+    padding: 15px;
+} */
+
 /* .functions_div .adm_div .rcrd_div .db_div{
     gap: 40px;
 } */
