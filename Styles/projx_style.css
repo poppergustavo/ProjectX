@@ -30,7 +30,8 @@
     color:#fff;
     border-color:rgb(49, 49, 49);
     background:rgb(49, 49, 49);
-    transition: 0.5s;}
+    transition: 0.5s;
+    cursor: pointer;}
 .nav_buttons:hover{
     border-color:rgb(0, 0, 0);
     background: #3c554f;  
