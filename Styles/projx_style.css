@@ -88,6 +88,39 @@
     background-color: #d5d5d5;
     padding: 10px;}
 
+.user_registration_func{
+    width: 90%;
+    height: 85%;
+    background-color: #d5d5d5;
+    padding: 10px;}
+
+.user_registration_save_btn{
+    width: 30%;
+    border-width: 2px;
+    color:#fff;
+    border-color:rgb(49, 49, 49);
+    background:rgb(49, 49, 49);
+    transition: 0.5s;}
+.user_registration_save_btn:hover{
+    border-color: #3c554f;
+    background: #3c554f;  
+    transition: 0.1s;
+    border-width:2px;
+    color:#fff;}
+
+.new_purchase_planner_save_btn{
+    width: 30%;
+    border-width: 2px;
+    color:#fff;
+    border-color:rgb(49, 49, 49);
+    background:rgb(49, 49, 49);
+    transition: 0.5s;}
+.new_purchase_planner_save_btn:hover{
+    border-color: #3c554f;
+    background: #3c554f;  
+    transition: 0.1s;
+    border-width:2px;
+    color:#fff;}
 /* .new_purchase_planner_func_body{
     padding: 15px;
 } */

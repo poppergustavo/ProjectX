@@ -1,5 +1,5 @@
 // VERSION
-var version = "0.1-5.1"
+var version = "1.0"
 document.getElementById("version_id").innerHTML = "Version " + version + "<strong> DEV</strong>";
 
 // login

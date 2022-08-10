@@ -46,21 +46,37 @@
                     <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\new_purchase_planner.png" alt="" width="100px" height="100px">
                     <p style="max-width:100px; font-size: small; text-align: center;">New Purchase Planner</p>
                 </div>
-                <div class="new_purchase" id="new_purchase" style="cursor: pointer;">
+                <div class="new_purchase" id="new_purchase" style="cursor: pointer; padding: 10px;">
                     <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\new_purchase.png" alt="" width="100px" height="100px">
                     <p style="max-width:100px; font-size: small; text-align: center;">New Purchase</p>
                 </div> 
-                <div class="new_report" id="new_report" style="cursor: pointer;">
+                <div class="new_report" id="new_report" style="cursor: pointer; padding: 10px;">
                     <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\new_report.png" alt="" width="100px" height="100px">
                     <p style="max-width:100px; font-size: small; text-align: center;">New Report</p>
                 </div>
-                <div class="alerts" id="alerts" style="cursor: pointer;">
+                <div class="alerts" id="alerts" style="cursor: pointer; padding: 10px;">
                     <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\alerts.png" alt="" width="100px" height="100px">
                     <p style="max-width:100px; font-size: small; text-align: center;">Alerts</p>
                 </div>
-                <div class="db_search" id="db_search" style="cursor: pointer;">
+                <div class="db_search" id="db_search" style="cursor: pointer; padding: 10px;">
                     <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\database_search.png" alt="" width="100px" height="100px">
                     <p style="max-width:100px; font-size: small; text-align: center;">database Search</p>
+                </div>
+                <div class="general_records" id="general_records" style="cursor: pointer; padding: 10px;">
+                    <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\general_records.png" alt="" width="100px" height="100px">
+                    <p style="max-width:100px; font-size: small; text-align: center;">General records</p>
+                </div>
+                <div class="prices" id="prices" style="cursor: pointer; padding: 10px;">
+                    <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\prices.png" alt="" width="100px" height="100px">
+                    <p style="max-width:100px; font-size: small; text-align: center;">Prices</p>
+                </div>
+                <div class="user_registration" id="user_registration" style="cursor: pointer; padding: 10px;">
+                    <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\user_registration.png" alt="" width="100px" height="100px">
+                    <p style="max-width:100px; font-size: small; text-align: center;">User registration</p>
+                </div>
+                <div class="user_func" id="user_func" style="cursor: pointer; padding: 10px;">
+                    <img src="C:\Users\Usuario\Desktop\ProjectX\Images\Local\user.png" alt="" width="100px" height="100px">
+                    <p style="max-width:100px; font-size: small; text-align: center;">User</p>
                 </div>
 
             </div>
@@ -94,10 +110,46 @@
                             <option value="custom"> Custom period </option>
                         </select>
                     </div>
+                    <div class="new_purchase_planner_save" id="new_purchase_planner_save" style="padding-top: 20px;">
+                        <button class="new_purchase_planner_save_btn" id="new_purchase_planner_save_btn">Save</button>
+                    </div>
                 </div>                
 
             </div>
 
+            <div class="user_registration_func" id="user_registration_func" style="display: none;">
+                <h2 style="top: 0; align-items: flex-start;">User registration</h2><br>
+                
+                <div class="user_registration_func_body" id="user_registration_func_body" style="padding-top: 10px;">
+                    <div class="user_registration_name_ipt" id="user_registration_name_ipt" style="display: block;">
+                        <div style="padding-right: 10px;">
+                            <p>First name:</p>
+                            <input type="text" name="" id="" size="100" style="cursor: pointer;">
+                        </div>
+                        <div>
+                            <p>Last name:</p>
+                            <input type="text" name="" id="" size="100" style="cursor: pointer;">
+                        </div>
+                    </div>
+                    <div class="user_registration_bday_ipt" id="user_registration_bday_ipt" style="display: flex; gap: 10px; padding-top: 10px;">
+                        <div style="display: block; cursor: pointer;">
+                            <p>Birthday:</p>
+                            <input type="date" style="cursor: pointer;">
+                        </div>
+                    </div>
+                    <div class="user_registration_gender_ipt" id="user_registration_gender_ipt" style="padding-top: 10px;">
+                        <p>Purchase type:</p>
+                        <select name="user_registration_gender_slc" id="user_registration_gender_slc" style="cursor: pointer;">
+                            <option value="normal"> Male </option>
+                            <option value="monthly"> Female </option>
+                        </select>
+                    </div>
+                    <div class="user_registration_save" id="user_registration_save" style="padding-top: 20px;">
+                        <button class="user_registration_save_btn" id="user_registration_save_btn">Save</button>
+                    </div>
+                </div>                
+
+            </div>
 
         </div>
 
