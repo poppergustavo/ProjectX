@@ -13,6 +13,7 @@ function hide_content(){
     document.getElementById("default_main_div").style.display = "none";
     document.getElementById("new_purchase_planner_func").style.display = "none";
     document.getElementById("user_registration_func").style.display = "none";
+    document.getElementById("general_records_func").style.display = "none";
 };
 
 function show_functions(){
@@ -85,4 +86,11 @@ document.getElementById("user_registration").onclick = function(){
     document.getElementById("default_main_div").style.display = "flex";
     document.getElementById("user_registration_func").style.display = "block";
 };
+
+document.getElementById("general_records").onclick = function(){
+    hide_content();
+
+    document.getElementById("default_main_div").style.display = "flex";
+    document.getElementById("general_records_func").style.display = "block";
+}
 // FUNCTIONS BUTTONS
